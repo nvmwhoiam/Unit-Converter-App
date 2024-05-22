@@ -1,0 +1,35 @@
+@import "./mixin.scss";
+
+.link_nav {
+    width: 100dvw;
+    height: 100dvh;
+    @include Dflex(center);
+
+    .nav {
+        width: 100%;
+        max-width: 350px;
+        padding: $md_p;
+        border: 1px solid $borderColor;
+
+        .nav_container {
+
+            .nav_item {
+                transition: background-color $animSpeed;
+
+                a {
+                    width: 100%;
+                    height: 100%;
+                    padding: $md_p;
+                }
+
+                &:not(:last-of-type) {
+                    border-bottom: 1px solid $borderColor;
+                }
+
+                &:hover {
+                    background-color: $lowOpacity;
+                }
+            }
+        }
+    }
+}

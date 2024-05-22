@@ -1,0 +1,26 @@
+@import "./mixin.scss";
+
+.converter {
+    height: 100dvh;
+    @include Dflex(center);
+
+    section {
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: $md_p;
+        flex: 1;
+        padding: $md_p;
+
+        .head_body {
+            padding: $md_p;
+            text-align: center;
+        }
+
+        .input_body {
+            input {
+                margin-top: $sm_p;
+            }
+        }
+    }
+}
