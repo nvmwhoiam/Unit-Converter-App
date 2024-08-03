@@ -14,16 +14,17 @@ This Unit Converter App is a small web-based application that allows users to co
 To run the Unit Converter App locally, follow these steps:
 
 1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-username/unit-converter-app.git
-    cd unit-converter-app
-    ```
+
+   ```bash
+   git clone https://github.com/nvmwhoiam/unit-converter-app.git
+   cd unit-converter-app
+   ```
 
 2. **Open the index.html file in your web browser**:
-    ```bash
-    open index.html
-    ```
-    or simply drag and drop the `index.html` file into your web browser.
+   ```bash
+   open index.html
+   ```
+   or simply drag and drop the `index.html` file into your web browser.
 
 ## How to Use
 
@@ -43,6 +44,7 @@ const temperatureInputs = document.querySelectorAll(".temperature-input");
 const lengthInputs = document.querySelectorAll(".length-input");
 const speedInputs = document.querySelectorAll(".speed-input");
 ```
+
 ## License
 
 This Unit Converter App is open-source and available under the [MIT License](LICENSE).
